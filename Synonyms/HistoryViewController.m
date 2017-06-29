@@ -24,7 +24,7 @@
     [self.historySearhViewTable setDataSource:self];
 }
 
-
+#pragma mark - Commit
 -(void)viewWillAppear:(BOOL)animated{
     [super viewWillAppear:animated];
     self.historyArray = [[DataProvider sharedInstance] getHistoryRequest];
